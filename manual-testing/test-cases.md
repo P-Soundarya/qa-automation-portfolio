@@ -215,9 +215,32 @@ confirmation page with the message should be displayed
 
 ----
 
+## Ts-18 Verify in cart page cart table is center alligned  
+
+Steps:
+1. Navigate to product page 
+2. add product to the cart
+3. go to cart page 
+
+Expected Result: 
+Cart table content must be centre alligned  
+
+----
+
+## Ts-19 Varify in cart page all the Column names are present  
+
+Steps:
+1. Navigate to product page 
+2. add product to the cart
+3. go to cart page 
+
+Expected Result: 
+All the Columns name of the table must be present  
+
+----
 
 
-## TS-18 Verify user can submit contact us form
+## TS-20 Verify user can submit contact us form
 
 Steps:
 1. Navigate to Contact us form 

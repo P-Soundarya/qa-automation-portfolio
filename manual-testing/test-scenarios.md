@@ -28,7 +28,7 @@ TS-09 Verify user can add product to cart
 
 TS-10 Verify user can remove product from cart
 
-TS-11 Verify user can update the product quantity 
+TS-11 Verify user can update the product quantity from the cart page
 
 Ts-12 Verify cart price calculation when quantity is increased 
 
@@ -42,7 +42,11 @@ Ts-16 Verify successful order placement
 
 Ts-17 Verify confirmation page after order 
 
+Ts-18 Verify in cart page cart table is center alligned 
+
+TS-19 Varify in cart page all the Column names are present 
+
 
 ## Contact Us Module
 
-TS-18 Verify user can submit contact form
+TS-20 Verify user can submit contact form
