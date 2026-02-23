@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.framework.ai</groupId>
+    <artifactId>framework-with-ai</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <!-- Java version -->
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        
+        <!-- Set TestNG suite file -->
+        <testng.suiteXmlFiles>testng.xml</testng.suiteXmlFiles>
+    </properties>
+
+    <dependencies>
+
+        <!-- Selenium WebDriver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.40.0</version>
+        </dependency>
+
+        <!-- TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.12.0</version>
+        </dependency>
+
+        <!-- WebDriver Manager (Auto driver binaries) -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>6.3.3</version>
+        </dependency>
+
+        <!-- SLF4J Logging (Simple logger) -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            
+            <!-- Surefire Plugin to run TestNG -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.1.2</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${testng.suiteXmlFiles}</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <forkCount>2</forkCount>
+                    <reuseForks>true</reuseForks>
+                </configuration>
+            </plugin>
+
+            <!-- Compiler plugin (if needed additional setup) -->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>

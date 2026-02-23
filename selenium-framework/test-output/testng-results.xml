@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-09T11:30:55 IST" name="AutomationExercise Suite" finished-at="2026-02-09T11:31:21 IST" duration-ms="26632">
+    <groups>
+    </groups>
+    <test started-at="2026-02-09T11:30:55 IST" name="Chrome Desktop" finished-at="2026-02-09T11:31:21 IST" duration-ms="26632">
+      <class name="com.framework.ai.tests.HomeTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.framework.ai.tests.HomeTest@7c9d8e2]" started-at="2026-02-09T11:30:55 IST" name="setup" finished-at="2026-02-09T11:31:00 IST" duration-ms="5141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1920x1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNavigationToLogin()[pri:0, instance:com.framework.ai.tests.HomeTest@7c9d8e2]" started-at="2026-02-09T11:31:00 IST" name="verifyNavigationToLogin" finished-at="2026-02-09T11:31:05 IST" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.ai.tests.HomeTest@7c9d8e2]" started-at="2026-02-09T11:31:05 IST" name="tearDown" finished-at="2026-02-09T11:31:05 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.framework.ai.tests.HomeTest@7c9d8e2]" started-at="2026-02-09T11:31:05 IST" name="setup" finished-at="2026-02-09T11:31:06 IST" duration-ms="738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1920x1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNavigationToProducts()[pri:0, instance:com.framework.ai.tests.HomeTest@7c9d8e2]" started-at="2026-02-09T11:31:06 IST" name="verifyNavigationToProducts" finished-at="2026-02-09T11:31:09 IST" duration-ms="2920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.ai.tests.HomeTest@7c9d8e2]" started-at="2026-02-09T11:31:09 IST" name="tearDown" finished-at="2026-02-09T11:31:09 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.ai.tests.HomeTest -->
+      <class name="com.framework.ai.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.framework.ai.tests.LoginTest@ed7f8b4]" started-at="2026-02-09T11:31:09 IST" name="setup" finished-at="2026-02-09T11:31:10 IST" duration-ms="763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1920x1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidLogin()[pri:0, instance:com.framework.ai.tests.LoginTest@ed7f8b4]" started-at="2026-02-09T11:31:10 IST" name="verifyInvalidLogin" finished-at="2026-02-09T11:31:16 IST" duration-ms="6347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.ai.tests.LoginTest@ed7f8b4]" started-at="2026-02-09T11:31:16 IST" name="tearDown" finished-at="2026-02-09T11:31:16 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.framework.ai.tests.LoginTest@ed7f8b4]" started-at="2026-02-09T11:31:16 IST" name="setup" finished-at="2026-02-09T11:31:17 IST" duration-ms="773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1920x1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageHeader()[pri:0, instance:com.framework.ai.tests.LoginTest@ed7f8b4]" started-at="2026-02-09T11:31:17 IST" name="verifyLoginPageHeader" finished-at="2026-02-09T11:31:21 IST" duration-ms="4265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.ai.tests.LoginTest@ed7f8b4]" started-at="2026-02-09T11:31:21 IST" name="tearDown" finished-at="2026-02-09T11:31:21 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.ai.tests.LoginTest -->
+    </test> <!-- Chrome Desktop -->
+  </suite> <!-- AutomationExercise Suite -->
+</testng-results>

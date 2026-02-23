@@ -1,0 +1,29 @@
+<suite name="AutomationExercise Suite"
+       parallel="tests"
+       thread-count="3">
+
+    <test name="Chrome Desktop">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="headless" value="false"/>
+        <parameter name="resolution" value="1920x1080"/>
+
+        <classes>
+            <class name="com.framework.ai.tests.HomeTest"/>
+           <class name="com.framework.ai.tests.LoginTest"/>
+             <class name="com.framework.ai.tests.ProductsTest"/>
+        </classes>
+    </test>
+
+    <test name="Chrome Laptop Headless">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="headless" value="true"/>
+        <parameter name="resolution" value="1366x768"/>
+
+        <classes>
+            <class name="com.framework.ai.tests.HomeTest"/>
+            <class name="com.framework.ai.tests.LoginTest"/>
+            <class name="com.framework.ai.tests.ProductsTest"/>
+        </classes>
+    </test>
+
+</suite>
